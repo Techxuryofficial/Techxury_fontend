@@ -1,0 +1,81 @@
+.cr_hd_bg{
+    height: 30rem;
+    
+    width: 100%;
+    /* background:rgb(59, 59, 59) url('https://images.pexels.com/photos/1059380/pexels-photo-1059380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-blend-mode: darken; */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    position: relative;
+    /* color: wheat; */
+    /* z-index: -1; */
+    /* background-attachment: fixed; */
+}
+.cr_hd_img_link{
+    background:  url('https://images.pexels.com/photos/1059380/pexels-photo-1059380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.cr_hd_img_link2{
+    background:  url('https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.cr_hd_img_link3{
+    background:  url('https://images.pexels.com/photos/574080/pexels-photo-574080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.cr_hd_img_link4{
+    background:  url('https://images.pexels.com/photos/7504837/pexels-photo-7504837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.cr_hd_img_link5{
+    background:  url('https://images.pexels.com/photos/5561916/pexels-photo-5561916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.cr_hd_child{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* top: 10rem;
+    left: 6rem; */
+    background: linear-gradient(to right, rgba(0,0,0,1) 10%,rgba(0,0,0,.7) 40%, rgba(0,0,0,.4 )  70%, rgba(0,0,0,0) 100%);
+    color: white;
+}
+.cr_hd_child2{
+    /* wi
+    on: absolute; */
+    width: 60%;
+    /* top: 10rem;
+    left: 6rem; */
+}
+@media (max-width:900px){
+    .cr_hd_child2{
+        width: 100%;
+        height:100%;
+        /* color: rgb(32, 32, 32); */
+    }
+}
+
+
+
+.cr_carousel_css{
+    width: 100%;
+    height: 70vh;
+}
