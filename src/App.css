@@ -269,6 +269,7 @@ background: linear-gradient(90deg, rgba(252,60,60,1) 50%, rgba(220,245,88,1) 100
     font-weight: 600;
   }
   .pr_card_detail{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
   }
